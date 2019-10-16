@@ -3,8 +3,11 @@
 
 
 ##1. Introduction
+
+
 ###1.1 Motivation
 Dorm rooms and college shared-living spaces are unfortunately common settings for theft. They usually have minimal security, if any, but college students store a plethora valuables here: laptop, phone, passport/SS card, cash, electronics, gaming platforms, just to name a few. Sometimes a simple door lock is not enough to deter the average thief- and what if the thief is a cohabitant? Burglary incidents vary between colleges, but in some cases, victims can be as common at 13% of the student population. Consumer Report even provides reviews on dorm insurance, and homeowners policies can also be extended to children on a college campus. Improving dorm room/living space security and oversight is important and a key step to prevent the ubiquitous issue of thievery. 
+
 
 ###1.2 Goals
 We are interested in using sensors to help us learn about the security of our living spaces by providing remote ways to monitor our front doors. 
