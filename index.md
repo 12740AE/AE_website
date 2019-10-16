@@ -1,6 +1,8 @@
 # **Welcome to Smart Dorm/Home Security from AE**
 
-
+<p align="center">
+  <img src="./img/begin_pic.png" width="350">
+</p>
 
 ## 1. Introduction
 
