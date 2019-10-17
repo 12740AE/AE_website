@@ -1,9 +1,11 @@
-# **Welcome to Smart Dorm/Home Security **
+# Welcome to Smart Dorm/Home Security 
 
 <p align="center">
   <img src="./image/first_pic.jpeg" width="350">
 </p>
 
+Video link: 
+Progress report link: [Progress Report](https://12740ae.github.io/progress-report/)
 
 
 ## 1. Introduction
