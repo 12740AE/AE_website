@@ -1,10 +1,10 @@
-# **Welcome to Smart Dorm/Home Security from AE**
+# **Welcome to Smart Dorm/Home Security **
 
 <p align="center">
   <img src="./image/first_pic.jpeg" width="350">
 </p>
 
-[baidu](http://baidu.com)
+
 
 ## 1. Introduction
 
