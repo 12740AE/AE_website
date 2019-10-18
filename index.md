@@ -14,7 +14,7 @@
 
 ### 1.1 Motivation
 
-Dorm rooms and college shared-living spaces are unfortunately common settings for theft. They usually have minimal security, if any, but college students store a plethora valuables here: laptop, phone, passport/SS card, cash, electronics, gaming platforms, just to name a few. Sometimes a simple door lock is not enough to deter the average thief- and what if the thief is a cohabitant? Burglary incidents vary between colleges, but in some cases, victims can be as common at 13% of the student population. Consumer Report even provides reviews on dorm insurance, and homeowners policies can also be extended to children on a college campus. Improving dorm room/living space security and oversight is important and a key step to prevent the ubiquitous issue of thievery. 
+Dorm rooms and college shared-living spaces are unfortunately common settings for theft. They usually have minimal security, if any, but college students store a plethora valuables here: laptop, phone, passport/SS card, cash, electronics, gaming platforms, just to name a few. Sometimes a simple door lock is not enough to deter the average thief- and what if the thief is a cohabitant? Burglary incidents vary between colleges, but in some cases, victims can be as common at 13% of the student population[1]. Consumer Report even provides reviews on dorm insurance, and homeowners policies can also be extended to children on a college campus. Improving dorm room/living space security and oversight is important and a key step to prevent the ubiquitous issue of thievery. 
 
 
 ### 1.2 Goals
@@ -36,7 +36,7 @@ Additionally, many students agree that it would give them peace of mind to see t
 
 With the accelerometer, we are measuring acceleration, or change in velocity of an object. Acceleration, in physics, is a vector quality and has a direction and magnitude as a result. Change in either the direction or magnitude will result in positive or negative acceleration. 
 
-Acceleration is measured in g or G, which is equal to about 32.2 feet per second2. The g provides a measure of stress that a body would experience if it was accelerated at so many times the Earth’s gravitational pull. To give a frame of reference, the average playground swing can produce about 2g, or two times the earth’s gravitational force at the bottom of the swing path. In our scenario, closing a door leisurely or even slamming it would produce around the same amount of g at the edge of the door where the moment arm (from the door hinge as the pivot point) is the greatest, and so are the forces acting on the door. 
+Acceleration is measured in g or G, which is equal to about 32.2 feet per second[2]. The g provides a measure of stress that a body would experience if it was accelerated at so many times the Earth’s gravitational pull. To give a frame of reference, the average playground swing can produce about 2g, or two times the earth’s gravitational force at the bottom of the swing path. In our scenario, closing a door leisurely or even slamming it would produce around the same amount of g at the edge of the door where the moment arm (from the door hinge as the pivot point) is the greatest, and so are the forces acting on the door. 
 
 *Signal Characteristics and Static/Dynamic Behavior*
 
@@ -46,7 +46,23 @@ Acceleration is found mainly as gravity or the result of a net force. Accelerati
 
 *Physical Principles*
 
-Infrared or IR is a kind of radiation emitted by almost all objects, and is emitted as heat energy. It’s part of the electromagnetic (EM)  spectrum, which also includes gamma-rays, x-rays, UV radiation and visible light. EM radiation is created by electric and magnetic oscillation fields perpendicular to each other as well as charged particles traveling in space[4]. 
+Infrared or IR is a kind of radiation emitted by almost all objects, and is emitted as heat energy. It’s part of the electromagnetic (EM)  spectrum, which also includes gamma-rays, x-rays, UV radiation and visible light[3]. EM radiation is created by electric and magnetic oscillation fields perpendicular to each other as well as charged particles traveling in space[4]. 
+
+*Signal Characteristics and Static/Dynamic Behaviors*
+
+IR frequencies range between 3 GHz and up to 400 THz, and wavelengths between 1000 micrometers and 760 nanometers for each complete cycle. The unit of measurement is most commonly the wavelength, in micrometers. IR radiation emitted by humans is steadily within .75 to 1000 micrometer and averages at 12 micrometers, all of which are values around the median of the IR spectrum. For warm-blooded animals, including humans, the main form of IR radiation produced would be in the form of thermal radiation[5].
+
+IR radiation is a fairly dynamic phenomena. IR as heat and less obvious forms of radiation are found in everything from household heating appliances such as toasters to communication signals between the TV and its remote controller. In perfectly insulated environments, it is possible to maintain a level of IR radiation so it may behave statically, however, this is an idealized situation that is seldom found in the natural world.
+
+**Visible Light**
+
+*Physical Principles*
+
+Visible light is also part of the electromagnetic spectrum, at higher frequencies that IR radiation discussed previously. As shown in Figure 1, the wavelengths for visible light range between 400 -700 nm, and the most common measurement for visible light is its wavelength, in nanometers. All waves in the electromagnetic spectrum travel as the speed of light, commonly known as coefficient c.  
+
+
+
+
 
 
 
