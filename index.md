@@ -303,11 +303,11 @@ As shown in Figure 11, there is a short range between log 10 to log 100 g of for
 
 ## 5. Reference
 
-[1]  Bicycle Helmet Safety Institute. “What's a g?” What Is a g? Acceleration?, Feb. 2019, [www.helmets.org/g.htm](www.helmets.org/g.htm).
+[1]  Bicycle Helmet Safety Institute. “What's a g?” What Is a g? Acceleration?, Feb. 2019, [www.helmets.org/g.htm](https://www.helmets.org/g.htm).
 
-[2] Orzel, Chad. “Football Physics: Putting G-Forces In Perspective.” Forbes, Forbes Magazine, 9 Nov. 2015, [www.forbes.com/sites/chadorzel/2015/11/08/football-physics-putting-g-forces-in-perspective/#40fc0a41766e](www.forbes.com/sites/chadorzel/2015/11/08/football-physics-putting-g-forces-in-perspective/#40fc0a41766e).
+[2] Orzel, Chad. “Football Physics: Putting G-Forces In Perspective.” Forbes, Forbes Magazine, 9 Nov. 2015, [www.forbes.com/sites/chadorzel/2015/11/08/football-physics-putting-g-forces-in-perspective/#40fc0a41766e](forbes.com/sites/chadorzel/2015/11/08/football-physics-putting-g-forces-in-perspective/#4e7db511766e).
 
-[3]Pederson, Tracy. “What Is Infrared?” LiveScience, Purch, 2019, [www.livescience.com/50260-infrared-radiation.html](www.livescience.com/50260-infrared-radiation.html).
+[3]Pederson, Tracy. “What Is Infrared?” LiveScience, Purch, 2019, [www.livescience.com/50260-infrared-radiation.html](http://www.livescience.com/50260-infrared-radiation.html).
 
 [4] Libretexts. “Electromagnetic Radiation.” Chemistry LibreTexts, Libretexts, 5 June 2019, [chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Fundamentals_of_Spectroscopy/Electromagnetic_Radiation](chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Fundamentals_of_Spectroscopy/Electromagnetic_Radiation).
 
