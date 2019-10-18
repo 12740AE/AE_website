@@ -299,11 +299,41 @@ Figure 11: Relationships between resistance and force from the datasheet, in log
 
 As shown in Figure 11, there is a short range between log 10 to log 100 g of force where the resistance drops from theoretically infinite kilo-ohms, to 10 kilo-ohms. The force required to reach the readable range of resistance is dependent on mainly the thickness of the sensor’s three layers and material. The error band (dotted lines in 11b) shows the expected accuracy for different force measurements. The greater the force measured, the less accurate resistance reading. 
 
-### 2.3Signaling Processing and Conditioning
+### 2.3 Signaling Processing and Conditioning
 
-*Decision-Making Process*
+**Decision-Making Process**
 
 We have two states of interest: door open, and door closed. The signal we expect to process is discrete and binary. Rather than calibrating each individual sensor to a ground truth, we decided to aggregate the results of 4 different sensors (accelerometer, light sensor, distance sensor and motion sensor) to detect whether the door was in one state or the other. The result of the four sensors is shown below.
+
+<p align="center">
+  <img src="./image/new51.png" width="500">
+</p>
+
+However, there may be environmental conditions and situations that create false positive/negative readings. For example, if the homeowner keeps a pet dog in the house and it moves near the door, the motion sensor and distance sensor may indicate that the door is open, which is not the truth. So we decided to create a decision tree in order to aggregate the readings from each sensor and make a comprehensive decision to determine if the door is either open or closed. The individual weak points of the sensors are compensated for by this data-processing method. Even if a single sensor is damaged, there still be a chance that the system would work appropriately.
+
+**Building binary decision tree**
+
+We employ a binary decision tree to predict labels of the training and testing data. To build the tree, we use mutual information (aka:information gain) to determine which attribute to split on at each node.Since it is a binary tree, the mutual information could be calculated as follows:
+
+For a split on attribute X,
+ I(Y ;X) = H(Y ) − H(Y|X) = H(Y ) − P(X = 0)H(Y|X = 0) − P(X = 1)H(Y|X = 1). 
+We use a majority vote classifier at each leaf node to make classiﬁcation decisions, If the vote is tied, any classiﬁcation of the leaf is considered to be True, which indicates that the door is open for safety concerns.
+Before the training process, we use the Raspberry Pi to collect training data with 148 sets of results from the four sensors and manually enter the labels (the ground truth). To collect the ground truth,we drew a line on the floor and assume that if the door has reached that line, the door is opened, otherwise, the door is closed. 
+
+<p align="center">
+  <img src="./image/new52.png" width="500">
+</p>
+
+In order to prevent overfitting, we limit the max-depth of the tree to three and we split a node only if the mutual information is > 0 and the current level of the node is < 3.
+The hand drawn tree ( which is easier to read) is shown in the video.
+
+## Experiments and Results
+
+Accuracy was determined by how many false readings we get in a trial of n times, a trial consisting or opening and closing the door once, each. When we trained the data with labels containing the ground truth, we completed and collected 148 instances of data; each trial comprised of opening and closing the door. The error rate on the training data is 0.1875. This is within our expectations since there is an unavoidable delay since the label is manually graded, which may lead to an error. The result of our sensing system is also good since we set the sensing at 1 second intervals, which means that in case an error happened, there still be a 82.25% chance that the system would work appropriately on the next sensing progress after one second. Such error could only lead to a one second delay, rather than a failure.
+In the real testing process, we connect a music player to the Raspberry Pi and every time the door is opened, a music is played. The testing result is satisfactory, the music was played properly in all test trials. 
+
+Earlier in the process, each sensor selected was tested individually and threshold voltages were found for each to determine when the door or lock was in one state or another. The tutorials and references used for each are found in the References section. Below are screenshots showing distinct sets of readings, from when we tested the sensor’s capabilities of detecting when the door was opened or closed. 
+Distance sensor output: 
 
 
 
