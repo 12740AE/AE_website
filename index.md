@@ -4,9 +4,11 @@
   <img src="./image/first_pic.jpeg" width="350">
 </p>
 
-**Video link:**  
+**Video link:**  [Video](https://vimeo.com/groups/609557/videos/367168883)
 
 **Progress report link:** [Progress Report](https://12740ae.github.io/progress-report/)
+
+**openchirp** [openchirp](https://openchirp.io/home/device/5da38eb1466cc60c381e0cbb#visualization)
 
 
 ## 1. Introduction
@@ -421,7 +423,7 @@ Hanging a “Beware of Dog” sign is often a measure that homeowners can take t
 
 [23]Luna Optoelectronics. “CDS Photoconductive Photocells.” Lunainc.com, 2016, [media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P9003.pdf](https://media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P9003.pdf).
 
-[24]Pan, A., and X. Zhu. “Photoconductivity.” Photoconductivity - an Overview | ScienceDirect Topics, 2015, [www.sciencedirect.com/topics/chemistry/photoconductivity](https://www.sciencedirect.com/topics/chemistry/photoconductivity).
+[24]Pan,A and X.Zhu. “Photoconductivity.” Photoconductivity - an Overview, ScienceDirect Topics, 2015, [www.sciencedirect.com/topics/chemistry/photoconductivity](https://www.sciencedirect.com/topics/chemistry/photoconductivity).
 
 [25] Pujol, Rémy. “Journey into the World of Hearing - Specialists.” Cochlea- Hearing Ranges, 6 June 2018, [www.cochlea.org/en/hear/human-auditory-range](http://www.cochlea.org/en/hear/human-auditory-range).
 
