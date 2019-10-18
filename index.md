@@ -359,4 +359,19 @@ As shown in Figure 11, there is a short range between log 10 to log 100 g of for
 
 [28] Interlink Electronics. “Force Sensitive Resistor Integration Guide and Evaluation Parts Catalog.” 400 Series Evaluation Parts , [cdn-learn.adafruit.com/assets/assets/000/010/126/original/fsrguide.pdf](https://cdn-learn.adafruit.com/assets/assets/000/010/126/original/fsrguide.pdf).
 
+**Tutorials and References for Sensors:**
+
+Krishnan, Hari, et al. “3 Axis Accelerometer with Regulator – ADXL335.” RhydoLABZwiki, 20 July 2013, [http://www.rhydolabz.com/wiki/?p=1417](http://www.rhydolabz.com/wiki/?p=1417).
+
+DroneBot Workshop. “HC-SR501 with Arduino & Raspberry Pi.” DroneBot Workshop, Publisher Name DroneBot Workshop Publisher Logo, 24 June 2019, [https://dronebotworkshop.com/using-pir-sensors-with-arduino-raspberry-pi/](https://dronebotworkshop.com/using-pir-sensors-with-arduino-raspberry-pi/)
+
+Caird, Andrew. “Using a Force Sensitive Resistor with a Raspberry Pi Which I Couldn't Find Anywhere Else on the Internets, so I Had to Write This.” Sitewide ATOM, Jan. 2015, [https://acaird.github.io/computers/2015/01/07/raspberry-pi-fsr](https://acaird.github.io/computers/2015/01/07/raspberry-pi-fsr)
+
+Berges, Mario. “3. Reading Analog Signals with an ADC.” Tutorials for 12740, 2019, [https://inferlab.github.io/12740/tutorials/adc.html](https://inferlab.github.io/12740/tutorials/adc.html)
+
+“Interface PIR Motion Sensor with Raspberry Pi.” How to Interface and Program an HC-SR501 PIR Motion Sensor to the Raspberry Pi, [www.mbtechworks.com/projects/pir-motion-sensor-with-raspberry-pi.html](www.mbtechworks.com/projects/pir-motion-sensor-with-raspberry-pi.html).
+
+Anavi, Leon. “Detecting Distance on Raspberry Pi with HC-SR04.” Leon Anavi - Mobile & Embedded, [https://www.anavi.org/article/209/](https://www.anavi.org/article/209/).
+
+
 
