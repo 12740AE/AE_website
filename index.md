@@ -116,7 +116,7 @@ Dynamic and static forces are represented in physical systems as bodies in motio
 
 The accelerometer used has small capacitive plates within the chip, creating a differential capacitor. Differential capacitance is described mathematically as follows:
 
- <img src="./image/new2.png" width="500">
+ <img src="./image/new22.png" width="500"> Equation1
 
 
 
