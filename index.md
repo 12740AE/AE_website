@@ -358,3 +358,5 @@ As shown in Figure 11, there is a short range between log 10 to log 100 g of for
 [27] LEC Freaks. Ultrasonic Ranging Module HC - SR04. Mouser Electronics, 2019, [www.mouser.com/datasheet/2/813/HCSR04-1022824.pdf](http://www.mouser.com/datasheet/2/813/HCSR04-1022824.pdf).
 
 [28] Interlink Electronics. “Force Sensitive Resistor Integration Guide and Evaluation Parts Catalog.” 400 Series Evaluation Parts , [cdn-learn.adafruit.com/assets/assets/000/010/126/original/fsrguide.pdf](https://cdn-learn.adafruit.com/assets/assets/000/010/126/original/fsrguide.pdf).
+
+
