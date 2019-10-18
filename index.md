@@ -27,7 +27,7 @@ Our objective is to achieve the following with sensors:
 
   1.）Tell the user when the door is opened and closed
   
-        （a）Also play music when the door is opened to welcome users home
+  （a）Also play music when the door is opened to welcome users home
         
   2.)Tell users when and if the door has been completely and successfully locked
 
@@ -165,7 +165,7 @@ The signal output of the sensor is analog, as voltage.The sensor has three separ
 A accelerometer may behave dynamically depending on environmental factors, such as temperature, and inputs, such as observed acceleration and source voltage. To establish a baseline for what we should be measuring, we look at the datasheet’s Typical Performance Characteristics page. We expect the output voltage from the sensor to be about 1.51 V when unmoved (zero acceleration) for the X-axis, and 1.49V for the Y and Z-Axis at 25 degrees Celsius (Figure 5). 
 
 <p align="center">
-  <img src="./image/new5.png" width="500">
+  <img src="./image/new5.png" width="400">
 </p>
 
 <p align="center">
@@ -189,7 +189,7 @@ The measurement range indicates the expected range of inputs (magnitude and dire
 PIR sensors are often used in motion-sensing applications such as security cameras in stores. The white bulbous shell that encapsulates the actual sensor is a Fresnel lens, which helps collect and concentrate light onto two pyroelectric sensors inside. One sensor has a positive output and the other has a negative output so they neutralize each other. When no motion is present, then the two sensors would read the same value (ambient IR in the testing environment) and have a zero output signal. When motion is detected, it will activate one sensor first, then the other (Figure 6). When there is motion in the opposite direction will generate an output pin high as a negative differential change between the two sensors[16].
 
 <p align="center">
-  <img src="./image/new6.png" width="500">
+  <img src="./image/new6.png" width="400">
 </p>
 
 <p align="center">
