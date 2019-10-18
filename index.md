@@ -245,6 +245,56 @@ The slope of the graph in Figure 9 is equal to the sensitivity of the sensor. Th
 Figure 9: Cell Resistance versus Illuminance relationship 
 </p>
 
+normal operating temperatures. In this case, because we are using the sensor between 20-30 degrees Celsius, we don’t anticipate significant changes in expected output voltage from temperature factors. Ambient light from lamps in classrooms are also expected to be consistent. 
+
+**Distance Sensor**
+
+**Model: HC-SR04**
+
+*Physical Principles digital*
+
+Ultrasonic distance sensors can measure distance by outputting “chirps” of sound within the ultrasonic range, above the human hearing range. Humans can hear between 20 Hz to 20 kHz. Ultrasound has frequency above 20 kHzp[25]. 
+
+Using the Trigger pin, the sensor starts the ranging/transmission process by outputting a 10 uS long pulse first as a trigger. The sensor would send out8  pulses at 40 kHz, which bounce off an object and are reflected back. Because we know the time that the pulses were sent out, and the speed of sound is a constant, distance of the object can be found as the product of the speed and time elapsed between sending and receiving the pulses. The Echo pin then outputs a signal for a time period proportional to the range. Range is found as uS/58 for range in centimeters, or the product of half the echo signal time and the speed of sound.
+
+*Signal Characteristics and Static/Dynamic Behavior*
+
+Sound waves are sinusoidal in nature and are characterized by frequency, wavelength, and amplitude. At 20 degrees Celsius, we know the speed of sound to be 343 meters per second but this can be changed by atmospheric humidity and temperature. Properties introduced by the air participles such as water vapor can obstruct and slow down the movement of sound waves in air, while temperature (related to relative energy and motion in particles) can do the same. Echo and trigger signals can be dynamic and affected by environmental factors. 
+
+The timing diagram from the datasheet for the sensor shows that the trigger, burst and echo signals are fairly static and predictable, as shown in Figure 10.
+
+<p align="center">
+  <img src="./image/new10.png" width="500">
+</p>
+
+<p align="center">
+Figure 10: Timing diagram showing how distance is calculated from range[27]
+</p>
+
+**Force Sensitive Resistor**
+
+**Model: MD30-60**
+
+*Physical Principles*
+
+Force sensitive resistors (FSR) changes its resistance with pressure. As it is a polymer thick film (PTF), FSRs are flexible, compact and versatile in usage. They are made of a semiconductor layer separated by a spacer from a layer with printed electrodes. When force is applied to the sensor, the semiconductor would contact the active electrode area.As force, measured in g, increases, resistance decreases in kilo-ohms, as shown in Figure 11. 
+
+<p align="center">
+  <img src="./image/new11.png" width="500">
+</p>
+
+<p align="center">
+Figure 11: Relationships between resistance and force from the datasheet, in log/log scales. 11a (left), 11bv(right)[28] 
+</p>
+
+*Signal Characteristics and Static/Dynamic Behavior*
+
+As shown in Figure 11, there is a short range between log 10 to log 100 g of force where the resistance drops from theoretically infinite kilo-ohms, to 10 kilo-ohms. The force required to reach the readable range of resistance is dependent on mainly the thickness of the sensor’s three layers and material. The error band (dotted lines in 11b) shows the expected accuracy for different force measurements. The greater the force measured, the less accurate resistance reading. 
+
+
+
+
+
 
 
 
