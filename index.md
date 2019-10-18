@@ -130,9 +130,109 @@ Figure 3: Diagram of a capacitor that can store positive and negative charges wi
 
 A set of capacitive plates is fixed while another set is attached to a polysilicon structure suspended above the first set with polysilicon springs. As the chip is accelerated, the spring-mounted capacitive plates are also accelerated. The springs will resist the acceleration in both positive and negative directions of travel with the following equation:
 
+ <img src="./image/new33.png" width="500"> 
+ 
+To better understand the physics and relationships of an accelerometer like the ADXL 335, it is assumed that only the spring force and gravity are acting in the system. The system’s free-body diagram for the top capacitive plate in the sensor would be as follows in Figure 4:
 
+<p align="center">
+  <img src="./image/new4.png" width="500">
+</p>
+
+<p align="center">
+Figure 4: Free body diagram for capacitive accelerometer to understand relationships between components of sensor. The two plates separated by a spring represent the conductive plates in each sensor capacitor. 
+</p>
+
+The spring force is the normal force which resists the gravitational force resulting from the mass of the plate at rest. 
+
+ <img src="./image/new44.png" width="500"> 
  
+When an additional force is applied and causes the sensor to accelerate, the spring would elongate/contract. Subsequently, as the length of the spring changes, the distance between the capacitive plates also changes (depending on the direction of acceleration), which changes capacitance according to Equation 1. Differential capacitance causes change in voltage, which is read as a raw output by the Raspberry Pi. 
  
+*Signal Characteristics & Static/Dynamic Behaviors*
+
+The signal output of the sensor is analog, as voltage.The sensor has three separate capacitors for each axis in the x, y, and z direction as indicated on the chip. To better understand the sensor’s capabilities, design practices, expected output/performance and possible environmental factors, we refer to the accompanying datasheet for the ADXL335 which lists specifications for input 3V, air temperature 25 degrees Celsius, and capacitance of each capacitor at 0.1 micro-Farad. 
+
+A accelerometer may behave dynamically depending on environmental factors, such as temperature, and inputs, such as observed acceleration and source voltage. To establish a baseline for what we should be measuring, we look at the datasheet’s Typical Performance Characteristics page. We expect the output voltage from the sensor to be about 1.51 V when unmoved (zero acceleration) for the X-axis, and 1.49V for the Y and Z-Axis at 25 degrees Celsius (Figure 5). 
+
+<p align="center">
+  <img src="./image/new5.png" width="500">
+</p>
+
+<p align="center">
+Figure 5 : Frequency of output voltage measurements from evaluation of Zero g Bias for all three axis[14].
+</p>
+ 
+The temperature range we expect to operate the sensor is around 23-28 degrees Celsius, as the average range of Carnegie Mellon University classrooms. The zero g bias voltage output for the x and y axis are expected to have a +/- 0.01 V change between 20-30 degrees Celsius, and almost no change in output between the same temperature range for the z-axis. We determine that the temperature (measured as temperature coefficient which is equal to change in acceleration readings in milli-g per change in temperature in degrees Celsius) does not significantly affect the sensor output for all three axis. We can expect the sensor performance and behavior to be relatively static in the testing temperature range. 
+
+The accelerometer was powered through with the Raspberry Pi’s 3.3V source voltage. Sensitivity (in units of V/g) describes the mathematical relation between the phenomena, acceleration, and output voltage. The sensitivity of the sensor is also affected by temperature, however, for our purposes, a visual evaluation of the provided plots between temperature and sensitivity is sufficient to determine that sensitivity is consistent between 20-30 degrees Celsius. At 25 degrees Celsius and Vs = 3 volts, sensitivity is at about 0.303V/g for the X-axis, 0.305 V/g for the Y-axis, and 0.299 V/g for the Z-axis, averaging about 302 V/g. Sensitivity is linearly related to the source voltage, so at 3.3V, we calculate that the average sensitivity between the three axis is as follows:
+3.3 V/ 3 V = (X V/g)/(302V/g) 
+X V/g = 332.2 V/g
+
+The measurement range indicates the expected range of inputs (magnitude and direction of the phenomena we are interested in, namely acceleration) we can have and still expect predictable and linear readings/outputs. According to the datasheet, the measurement range is 3g in both positive or negative directions, guaranteed by the manufacturer. The sensor also notably does not have significant cross-axis sensitivity to measure movement in non-orthogonal directions. Acceleration is an instantaneous reading, and we are more concerned about dynamic readings (acceleration over a short period of time), rather than static readings from tilt sensor applications. However, the sensor is designed to assess tilting motions as well, in the case of static acceleration. 
+
+**Passive InfraRed Sensors (PIR)**
+
+**Model: HC-SR501**
+
+*Physical Principles*
+
+PIR sensors are often used in motion-sensing applications such as security cameras in stores. The white bulbous shell that encapsulates the actual sensor is a Fresnel lens, which helps collect and concentrate light onto two pyroelectric sensors inside. One sensor has a positive output and the other has a negative output so they neutralize each other. When no motion is present, then the two sensors would read the same value (ambient IR in the testing environment) and have a zero output signal. When motion is detected, it will activate one sensor first, then the other (Figure 6). When there is motion in the opposite direction will generate an output pin high as a negative differential change between the two sensors[16].
+
+<p align="center">
+  <img src="./image/new6.png" width="500">
+</p>
+
+<p align="center">
+Figure 6: A diagram of how PIR sensors work from LastMinuteEngineers.com[17]
+</p>
+
+Pyroelectric sensors work by detecting electromagnetic radiation between 2 to 14 micrometers. They feature a pyroelectric crystal that is polarized to change with temperature. A crystal layer is embedded between electrodes (Figure 7) and topped off with a layer which absorbs infrared radiation that it interacts with. The pyroelectric crystal layer heats up and charges with this interaction; because the crystal is polarized, charges will move to opposite ends and create an electrical potential through the crystal[18].  
+
+<p align="center">
+  <img src="./image/new7.png" width="500">
+</p>
+
+<p align="center">
+Figure  7: Diagrams from Research Gate depicting how pyroelectric sensors are constructed[19]
+</p>
+
+There are two potentiometers on the back of the PIR chip to control the sensitivity of the PIR and the delay time. The sensitivity of the PIR sensor is the sensing capability; the sensor can detect anywhere from between 3 to 7 meters, adjusted by the potentiometer. Delay time is the amount of time that the PIR sensor will remain high after being triggered by motion. It can help reduce redundant readings when counting fast-moving objects and provides flexibility in sensor setup. The delay time can be set to read high for 3 seconds to 5 minutes, and is always followed by 3 seconds of low output where no readings can be made. Another feature of the PIR sensor is the Trigger Mode[20], which has a Repeatable (H mode) and Single (L mode) option. The single trigger option means that the time delay begins when the motion is first detected, and ignores any additional triggers while remaining high for the rest of the delay time. Repeatable triggers mean that ever motion detection will reset the sensor’s delay time to restart count. This option is desirable for counting occurrences such as people entering a door. 
+
+*Signal Characteristics and Dynamic/Static Behavior*
+
+This PIR sensor features some signal conditioning and processing features built into the device. According to the PIR sensor datasheet, there is transmission rate of greater than 70% if the range of radiation detected averages between 7 to 14 micrometers (well within the IR spectrum). This means that 70% of the radiation incoming can be changed into electrical signals at or greater than 70% throughput. There is also a listed cut-on wavelength, at 5.0 +/- 0.5 micrometers. Within the  range of 4.5 and 5.5 microns, the transmission increases to and over 50% transmission, through a longpass optical filter. Longpass filters[21] are similar to highpass filters, in which shorter wavelengths are attenuated in from the signals received by a sensor while allowing longer wavelengths to pass. This is useful for PIR sensors since shorter wavelengths are within the visible light spectrum, which is almost always within the testing environment. 
+
+The sensor also features an integrated circuit (BISS0001) that manages the trigger mode options (for repeatable and non-repeatable action). In Figure 8, the repeatable mode waveform is shown with three motions detected. Assuming that time proceeds from start time (T0) on the left edge of the diagram:
+The first motion occurs at: shortly after T0
+The second and third motions are one after the other and occur at: Tx+ Ti, and Tx+ Ti + Tx
+
+<p align="center">
+  <img src="./image/new8.png" width="500">
+</p>
+
+<p align="center">
+Figure 8: Repeatable and nonrepeatable waveform for PIR sensor[22].
+</p>
+
+The non-repeating waveform is shown with three motions as well, at the following time (same assumption as in the repeatable example above):
+First and second motions occur one after the other at: shortly after T0, and shortly after Tx
+Third motion occurs at: Tx+ Ti+ Tx
+The first and second motions only trigger the sensor once, at the start of the first motion. The second motion is disregarded and no voltage output is generated from this interaction. The third motion generates voltage as normal after the delay time and the low-output time. 
+
+**Light Sensor **
+
+**Model: LM 393**
+
+*Physical Principles*
+
+Light sensors are equipped with a photoresistor (or LDR, light-dependent resistor) as the sensing unit, and circuits that can interpret changes in light into a series of electrical signals. The photoresistor embedded is model PDV-P9003, and are photoconductive photocells made of cadmium sulfide (CdS)[23]. 
+
+Photoconductivity is the ability for a material to be more electrically conductive if it is exposed to light radiation, allowing more current to flow through[24]. As Ohm’s law dictates, current and resistance are inversely related, so resistance also decreases in photoconductive photocells with increase in light intensity. These photocells can sense light from 400 to 700 nm in the visible light spectrum; this means that radiation outside of this range will not affect resistance. To quantify resistance with respect to light intensity, quantitative values are expressed as illuminance, or the amount of light that is reflected/hits the surface of, in this case, the photocell. 
+
+*Signal Characteristics and Static/Dynamic Behavior*
+
+The cell’s resistance varies inversely with illuminance, as shown in the PDV-P9003 datasheet. From Sensitivity (resistance change in relation to luminance) declarations in the datasheet, the relationship is as follows in ohms per Lux:
+
 
 
 
