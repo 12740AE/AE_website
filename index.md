@@ -30,14 +30,22 @@ Additionally, many students agree that it would give them peace of mind to see t
 
 
 ## 5. Reference
-Ada, Lady. “PIR Motion Sensor.” Adafruit Learning System, learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work.
+Ada, Lady. “PIR Motion Sensor.” Adafruit Learning System, [learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work](learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work)
+
 Adafruit. “BISS0001 Micro Power PIR Motion Detector IC.” Adafruit Learn, cdn-learn.adafruit.com/assets/assets/000/010/133/original/BISS0001.pdf.
+
 Analog Devices. Accelerometer Specifications - Quick Definitions. www.analog.com/en/products/landing-pages/001/accelerometer-specifications-definitions.html.
+
 Analog Devices. “Small, Low Power, 3-Axis ±3 g Accelerometer Datasheet.” ADXL 335, 2010, www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf.
+
 Analog Devices. Small, Low Power, 3-Axis ±3 g Accelerometer. 2010, www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf.
+
 “Arduino HC-SR501 Motion Sensor Tutorial.” Henry's Bench, 10 Feb. 2018, henrysbench.capnfatz.com/henrys-bench/arduino-sensors-and-input/arduino-hc-sr501-motion-sensor-tutorial/.
+
 Bicycle Helmet Safety Institute. “What's a g?” What Is a g? Acceleration?, Feb. 2019, www.helmets.org/g.htm.
+
 Brookshire, Bethany. “Scientists Say: Infrared.” Science News for Students, Aug. 2018, www.sciencenewsforstudents.org/blog/scientists-say/scientists-say-infrared.
+
 Burnett, Roderick. “Understanding How Ultrasonic Sensors Work.” MaxBotix Inc., Publisher Name MaxBotix Inc.Publisher Logo, 16 Sept. 2019, www.maxbotix.com/articles/how-ultrasonic-sensors-work.htm.
 ELEC Freaks. Ultrasonic Ranging Module HC - SR04. Mouser Electronics, 2019, www.mouser.com/datasheet/2/813/HCSR04-1022824.pdf.
 ElectronicsTutorial. “Introduction to Capacitors, Capacitance and Charge.” Basic Electronics Tutorials, 15 Sept. 2018, www.electronics-tutorials.ws/capacitor/cap_1.html.
