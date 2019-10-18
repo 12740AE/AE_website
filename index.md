@@ -61,7 +61,7 @@ IR radiation is a fairly dynamic phenomena. IR as heat and less obvious forms of
 Visible light is also part of the electromagnetic spectrum, at higher frequencies that IR radiation discussed previously. As shown in Figure 1, the wavelengths for visible light range between 400 -700 nm, and the most common measurement for visible light is its wavelength, in nanometers. All waves in the electromagnetic spectrum travel as the speed of light, commonly known as coefficient c.  
 
 <p align="center">
-  <img src="./image/new1.png" width="350">
+  <img src="./image/new1.png" width="500">
 </p>
 
 <p align="center">
@@ -80,7 +80,43 @@ Light has natural and artificial sources, including the Sun, fluorescent lamps, 
 Figure 2 : Emission spectrum analysis showing intensity of each wavelength in visible light spectrum for natural light (left), and incandescent light (right)[7]
 </p>
 
+The average spectra observed may be different as a result from the skewed/favoring behavior of different light sources. When light is emitted at a wavelength, the signal characteristics (wavelength, amplitude, frequency, speed) are static, unless the positioning of the light source or the light source itself is modified. 
 
+Another characteristic of visible light is light intensity. Light is measured with respect to direction and strength. Luminous flux is the “total amount of light emitted in all directions by a light source”, and is measured in lumens. Luminous intensity is also called luminance, and described by the strength of the light visible to the human eye. Luminance is measured in candela or lumens/steridian to represent intensity of the light through a unit area of the light source’s surface (i.e. the light bulb surface). Illuminance on the other hand, is measured in lux and describes the amount of light being projected/reflected onto a given surface area (such as is the case in indirect light)[9].
+
+**Distance**
+
+*Physical Principles*
+
+Physical distance can use an array of measurements that provide some approximation of the space between at least two entities. It most commonly has units in feet-inches and meters.
+
+*Signal Characteristics and Static/Dynamic Behaviors*
+
+Distance can be dynamic if the position of any entities are moved; differential distance, or distance that changes with respective to time is derived as velocity. If no work is done in a system, the distance between entities is usually static. 
+
+**Force**
+
+*Physical Principles*
+
+Force is the “push or pull upon an object resulting from the object’s interaction with another object”[10]. The unit of force is the Newton, which is equal to 1 kg-m/s2, representing the relationship of force as the driving entity behind a 1 kg mass accelerating at 1 m/s2. From modern kinematics, force is presented as a vector quality with a magnitude and direction. 
+
+*Signal Characteristics and Static/Dynamic Behaviors*
+
+Dynamic and static forces are represented in physical systems as bodies in motion or still. For example, a ball rolling along a plank exerts gravitational force (weight) across the length of the plank, so the load varies over time.
+
+ A static load is constant over time, such as a ball sitting still at the end of the plank. Under static, unchanging force, a body can only respond by being displaced, while dynamic forces acting on a body can change the body’s displacement, velocity, and acceleration (these are time varying)[11].
+
+## Sensors Used
+
+**Accelerometer**
+
+**Model: ADXL 335**
+
+*Physical Principles*
+
+The accelerometer used has small capacitive plates within the chip, creating a differential capacitor. Differential capacitance is described mathematically as follows:
+
+ <img src="./image/new2.png" width="500">
 
 
 
