@@ -219,7 +219,7 @@ First and second motions occur one after the other at: shortly after T0, and sho
 Third motion occurs at: Tx+ Ti+ Tx
 The first and second motions only trigger the sensor once, at the start of the first motion. The second motion is disregarded and no voltage output is generated from this interaction. The third motion generates voltage as normal after the delay time and the low-output time. 
 
-**Light Sensor **
+**Light Sensor**
 
 **Model: LM 393**
 
@@ -232,6 +232,21 @@ Photoconductivity is the ability for a material to be more electrically conducti
 *Signal Characteristics and Static/Dynamic Behavior*
 
 The cell’s resistance varies inversely with illuminance, as shown in the PDV-P9003 datasheet. From Sensitivity (resistance change in relation to luminance) declarations in the datasheet, the relationship is as follows in ohms per Lux:
+
+<img src="./image/new55.png" width="500"> 
+
+The slope of the graph in Figure 9 is equal to the sensitivity of the sensor. The output voltage from the sensor can be related back to the resistance, which is then matched to the observed luminesce level, in lux .  
+
+<p align="center">
+  <img src="./image/new9.png" width="500">
+</p>
+
+<p align="center">
+Figure 9: Cell Resistance versus Illuminance relationship 
+</p>
+
+
+
 
 
 
