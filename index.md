@@ -305,7 +305,7 @@ As shown in Figure 11, there is a short range between log 10 to log 100 g of for
 
 [1]  Bicycle Helmet Safety Institute. “What's a g?” What Is a g? Acceleration?, Feb. 2019, [www.helmets.org/g.htm](https://www.helmets.org/g.htm).
 
-[2] Orzel, Chad. “Football Physics: Putting G-Forces In Perspective.” Forbes, Forbes Magazine, 9 Nov. 2015, [www.forbes.com/sites/chadorzel/2015/11/08/football-physics-putting-g-forces-in-perspective/#40fc0a41766e](forbes.com/sites/chadorzel/2015/11/08/football-physics-putting-g-forces-in-perspective/#4e7db511766e).
+[2] Orzel, Chad. “Football Physics: Putting G-Forces In Perspective.” Forbes, Forbes Magazine, 9 Nov. 2015, [www.forbes.com/sites/chadorzel/2015/11/08/football-physics-putting-g-forces-in-perspective/#40fc0a41766e](http://www.forbes.com/sites/chadorzel/2015/11/08/football-physics-putting-g-forces-in-perspective/#40fc0a41766e).
 
 [3]Pederson, Tracy. “What Is Infrared?” LiveScience, Purch, 2019, [www.livescience.com/50260-infrared-radiation.html](http://www.livescience.com/50260-infrared-radiation.html).
 
