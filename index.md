@@ -117,6 +117,22 @@ Dynamic and static forces are represented in physical systems as bodies in motio
 The accelerometer used has small capacitive plates within the chip, creating a differential capacitor. Differential capacitance is described mathematically as follows:
 
  <img src="./image/new22.png" width="500"> Equation1
+ 
+ Capacitors are traditionally made with two conductive plates separated by a dielectric (in this case, this is air, as shown in Figure 3 below). Capacitance is the use of these plates to store charge, and is measured in Farads. The surface charge as described in Equation 1 is often referred to as Q, and is directly related to the voltage, or potential difference (measured in volts) across the plates. If voltage is increased, the charge stored between the plates, measured in Coulombs,also increases. 
+ 
+ <p align="center">
+  <img src="./image/new3.png" width="500">
+</p>
+
+<p align="center">
+Figure 3: Diagram of a capacitor that can store positive and negative charges with respect to the source voltage[13]
+</p>
+
+A set of capacitive plates is fixed while another set is attached to a polysilicon structure suspended above the first set with polysilicon springs. As the chip is accelerated, the spring-mounted capacitive plates are also accelerated. The springs will resist the acceleration in both positive and negative directions of travel with the following equation:
+
+
+ 
+ 
 
 
 
