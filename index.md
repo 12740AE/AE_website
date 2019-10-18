@@ -14,17 +14,25 @@
 
 ### 1.1 Motivation
 
-Dorm rooms and college shared-living spaces are unfortunately common settings for theft. They usually have minimal security, if any, but college students store a plethora valuables here: laptop, phone, passport/SS card, cash, electronics, gaming platforms, just to name a few. Sometimes a simple door lock is not enough to deter the average thief- and what if the thief is a cohabitant? Burglary incidents vary between colleges, but in some cases, victims can be as common at 13% of the student population[1]. Consumer Report even provides reviews on dorm insurance, and homeowners policies can also be extended to children on a college campus. Improving dorm room/living space security and oversight is important and a key step to prevent the ubiquitous issue of thievery. 
+Dorm rooms and college shared-living spaces are unfortunately common settings for theft. They usually have minimal security, if any, but college students store a plethora valuables here: laptop, phone, passport/SS card, cash, electronics, gaming platforms, just to name a few. Sometimes a simple door lock is not enough to deter the average thief- and what if the thief is a cohabitant? Burglary incidents vary between colleges, but in some cases, victims can be as common at 13% of the student population. Consumer Report even provides reviews on dorm insurance, and homeowners policies can also be extended to children on a college campus. Improving dorm room/living space security and oversight is important and a key step to prevent the ubiquitous issue of thievery. 
 
 
 ### 1.2 Goals
 
-We are interested in using sensors to help us learn about the security of our living spaces by providing remote ways to monitor our front doors. 
+We are interested in using sensors to help us learn about the security of our living spaces by providing remote ways to monitor our front doors.
+
 Our objective is to achieve the following with sensors:
-  1.)Record the time and date when the door is opened and closed for review at a later time
-  2.)Provide visual feedback when the door has been completely and successfully locked
+
+  1.）Tell the user when the door is opened and closed
+  
+        （a）Also play music when the door is opened to welcome users home
+        
+  2.)Tell users when and if the door has been completely and successfully locked
+
 It will be important to maintain a record of time/date so if there is an intruder, a user can specify the time and date of when the crime took place. Additionally, individuals who live together can compare the timestamps to identify if there is an intruder by verifying the timestamps with their own knowledge of when they enter/exited the space. 
-Additionally, many students agree that it would give them peace of mind to see that the door is indeed locked as they leave the property. Sometimes, we can even forget to lock the door. By providing a visual feedback such as an LED light to signify that the door is locked, a person standing several feet away can verify that they did indeed lock the door. 
+
+Additionally, many students agree that it would give them peace of mind to see that the door is indeed locked as they leave the property. Sometimes, we can even forget to lock the door. By uploading the status to OpenChirp in order to signify that the door is locked, a person at school or office can verify that they did indeed lock the door. 
+
 
 ## 2. Methodology
 
@@ -290,6 +298,13 @@ Figure 11: Relationships between resistance and force from the datasheet, in log
 *Signal Characteristics and Static/Dynamic Behavior*
 
 As shown in Figure 11, there is a short range between log 10 to log 100 g of force where the resistance drops from theoretically infinite kilo-ohms, to 10 kilo-ohms. The force required to reach the readable range of resistance is dependent on mainly the thickness of the sensor’s three layers and material. The error band (dotted lines in 11b) shows the expected accuracy for different force measurements. The greater the force measured, the less accurate resistance reading. 
+
+### 2.3Signaling Processing and Conditioning
+
+*Decision-Making Process*
+
+We have two states of interest: door open, and door closed. The signal we expect to process is discrete and binary. Rather than calibrating each individual sensor to a ground truth, we decided to aggregate the results of 4 different sensors (accelerometer, light sensor, distance sensor and motion sensor) to detect whether the door was in one state or the other. The result of the four sensors is shown below.
+
 
 
 
