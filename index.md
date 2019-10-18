@@ -28,6 +28,27 @@ Additionally, many students agree that it would give them peace of mind to see t
 
 ## 2. Methodology
 
+### 2.1 Phenomena of Interest
+
+**Acceleration**
+
+*Physical Principles*
+
+With the accelerometer, we are measuring acceleration, or change in velocity of an object. Acceleration, in physics, is a vector quality and has a direction and magnitude as a result. Change in either the direction or magnitude will result in positive or negative acceleration. 
+
+Acceleration is measured in g or G, which is equal to about 32.2 feet per second2. The g provides a measure of stress that a body would experience if it was accelerated at so many times the Earth’s gravitational pull. To give a frame of reference, the average playground swing can produce about 2g, or two times the earth’s gravitational force at the bottom of the swing path. In our scenario, closing a door leisurely or even slamming it would produce around the same amount of g at the edge of the door where the moment arm (from the door hinge as the pivot point) is the greatest, and so are the forces acting on the door. 
+
+*Signal Characteristics and Static/Dynamic Behavior*
+
+Acceleration is found mainly as gravity or the result of a net force. Acceleration from gravity is a (fairly- since gravity technically varies at different times and places) static physical property that all items exhibit when there isn’t a normal force to neutralize the Earth’s gravitational pull. Static acceleration as gravity can be used to measure if an object of interest is stationary but tilting. Dynamic acceleration is observed when a net force is applied to an object, causing time-varying change in direction or velocity, such as in the case of the object in motion or experiencing vibrations.
+
+**Infrared Radiation**
+
+*Physical Principles*
+
+Infrared or IR is a kind of radiation emitted by almost all objects, and is emitted as heat energy. It’s part of the electromagnetic (EM)  spectrum, which also includes gamma-rays, x-rays, UV radiation and visible light. EM radiation is created by electric and magnetic oscillation fields perpendicular to each other as well as charged particles traveling in space[4]. 
+
+
 
 ## 5. Reference
 Ada, Lady. “PIR Motion Sensor.” Adafruit Learning System, [learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work](learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work)
