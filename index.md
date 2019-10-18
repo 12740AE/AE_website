@@ -243,12 +243,12 @@ Photoconductivity is the ability for a material to be more electrically conducti
 
 The cell’s resistance varies inversely with illuminance, as shown in the PDV-P9003 datasheet. From Sensitivity (resistance change in relation to luminance) declarations in the datasheet, the relationship is as follows in ohms per Lux:
 
-<img src="./image/new55.png" width="500"> 
+<img src="./image/new55.png" width="350"> 
 
 The slope of the graph in Figure 9 is equal to the sensitivity of the sensor. The output voltage from the sensor can be related back to the resistance, which is then matched to the observed luminesce level, in lux .  
 
 <p align="center">
-  <img src="./image/new9.png" width="500">
+  <img src="./image/new9.png" width="400">
 </p>
 
 <p align="center">
