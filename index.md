@@ -66,7 +66,7 @@ Lee Shuk-Ming, Olivia. “Radiation Emitted by Human Body - Thermal Radiation.�
 
 Libretexts. “Electromagnetic Radiation.” Chemistry LibreTexts, Libretexts, 5 June 2019, [https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Fundamentals_of_Spectroscopy/Electromagnetic_Radiation](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Fundamentals_of_Spectroscopy/Electromagnetic_Radiation)
 
-Luna Optoelectronics. “CDS Photoconductive Photocells.” Lunainc.com, 2016, [media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P9003.pdf](media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P9003.pdf)
+Luna Optoelectronics. “CDS Photoconductive Photocells.” Lunainc.com, 2016, [https://media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P9003.pdf](https://media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P9003.pdf)
 
 Navarro-Cia, Miguel. “Pyroelectric-Sensor-a-Sketch-of-the-Pyroelectric-Sensor-with-an-Integrated-Resonant.” Research Gate, Feb. 2016, www.researchgate.net/figure/Pyroelectric-sensor-a-Sketch-of-the-pyroelectric-sensor-with-an-integrated-resonant_fig3_294873294.
 
