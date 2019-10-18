@@ -320,8 +320,11 @@ For a split on attribute X,
 We use a majority vote classifier at each leaf node to make classiﬁcation decisions, If the vote is tied, any classiﬁcation of the leaf is considered to be True, which indicates that the door is open for safety concerns.
 Before the training process, we use the Raspberry Pi to collect training data with 148 sets of results from the four sensors and manually enter the labels (the ground truth). To collect the ground truth,we drew a line on the floor and assume that if the door has reached that line, the door is opened, otherwise, the door is closed. 
 
+The tree built on the training data is as followed:
+(False and F for Closed and True and T for Open)
+
 <p align="center">
-  <img src="./image/new52.png" width="500">
+  <img src="./image/new53.png" width="500">
 </p>
 
 In order to prevent overfitting, we limit the max-depth of the tree to three and we split a node only if the mutual information is > 0 and the current level of the node is < 3.
@@ -333,17 +336,41 @@ Accuracy was determined by how many false readings we get in a trial of n times,
 In the real testing process, we connect a music player to the Raspberry Pi and every time the door is opened, a music is played. The testing result is satisfactory, the music was played properly in all test trials. 
 
 Earlier in the process, each sensor selected was tested individually and threshold voltages were found for each to determine when the door or lock was in one state or another. The tutorials and references used for each are found in the References section. Below are screenshots showing distinct sets of readings, from when we tested the sensor’s capabilities of detecting when the door was opened or closed. 
+
 Distance sensor output: 
 
+<p align="center">
+  <img src="./image/new52.png" width="500">
+</p>
 
+Light sensor output:
 
+<p align="center">
+  <img src="./image/new54.png" width="500">
+</p>
 
+The light sensor has noticeably much smaller changes in voltage from the door opening and closing. 
 
+## Discussion
 
+**4.1 Testing and Selecting Sensors**
 
+We are presented with a real-world engineering problem of designing a system by selecting the tools, validation method, and testing process, to achieve a goal(s). The goals are to successfully achieve a way to detect when someone is entering our living spaces, play music, and convey remotely if the door is properly locked. We decided to use the accelerometer, ultrasonic distance sensor, photoresistor, PIR and FSR, and chose not to use a rotary encoder for the goal of detecting when the door was open. The rotary encoder was deemed not appropriate because of its size, which would make it difficult to discreetly install in a real, unmodified main door. 
 
+To detect if the door is correctly and completely locked, we wanted to place a flat sensor into the cavity of the door frame, where the bolt of the door lock would slide into (see Figure #). We initially wanted to use a homemade capacitive sensor of two pieces of aluminum foil separated by a sheet of computer paper. When the bolt impacts the foil-paper-foil layers, the distance between the foil sheets. However, we were not sure how to take the changing capacitance readings from two leads connected to each foil layer, and transferring it into something the Raspberry Pi can read. A similar sensor is a force-sensitive resistor. It’s flat, and flexible to fit into the cavity of the latch.
 
+**4.2 Analog and Digital Signal Considerations**
+The accelerometer, light sensor, FSR and PIR are sensors that have analog outputs, and needed an ADC (MCP3008) because the GPIO pins on the Raspberry Pi only take digital readings. The last sensor, the distance sensor, actually had digital pins, so the signal had to be turned into an analog signal for ease of sensor management. In order to do that, we use the time interval between the output signal and the returning signal together with the velocity of the signal to calculate the distance.
 
+**4.3 Picking threshold**
+One potential drawback of our system is that we need to repick the threshold every time the environment has changed, but this is not a problem in a real world situation since a door would seldom move to a different environment.
+
+**4.4 Additional Insights**
+
+OpenChirp integration was a great introduction into the world of IoT and the course challenged everyone to think about an idea, make a plan, figure out what we don’t know and execute the plan. Having a good grasp of Python is almost a necessity in this class for complex projects. We learned that  testing environments can dramatically change and cause thresholds, outputs and performance to change dramatically for sensors. 
+
+**4.5 Future Directions**
+Hanging a “Beware of Dog” sign is often a measure that homeowners can take to lower their home insurance rates. These signs have proven to also deter burglars, and a similar effect can be achieved by simulating the sound of dogs barking when a person approaches the door. We want to add an RFID tag to the homeowner’s key set, and a RFID reader by the door. That way, if someone who is not the homeowner open the door, the RFID is not activated, and the system can tell that the space is being 
 
 
 ## 5. Reference
