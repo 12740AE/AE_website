@@ -38,8 +38,6 @@ Analog Devices. Accelerometer Specifications - Quick Definitions. www.analog.com
 
 Analog Devices. “Small, Low Power, 3-Axis ±3 g Accelerometer Datasheet.” ADXL 335, 2010, www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf.
 
-Analog Devices. Small, Low Power, 3-Axis ±3 g Accelerometer. 2010, www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf.
-
 “Arduino HC-SR501 Motion Sensor Tutorial.” Henry's Bench, 10 Feb. 2018, henrysbench.capnfatz.com/henrys-bench/arduino-sensors-and-input/arduino-hc-sr501-motion-sensor-tutorial/.
 
 Bicycle Helmet Safety Institute. “What's a g?” What Is a g? Acceleration?, Feb. 2019, www.helmets.org/g.htm.
@@ -47,24 +45,44 @@ Bicycle Helmet Safety Institute. “What's a g?” What Is a g? Acceleration?, F
 Brookshire, Bethany. “Scientists Say: Infrared.” Science News for Students, Aug. 2018, www.sciencenewsforstudents.org/blog/scientists-say/scientists-say-infrared.
 
 Burnett, Roderick. “Understanding How Ultrasonic Sensors Work.” MaxBotix Inc., Publisher Name MaxBotix Inc.Publisher Logo, 16 Sept. 2019, www.maxbotix.com/articles/how-ultrasonic-sensors-work.htm.
+
 ELEC Freaks. Ultrasonic Ranging Module HC - SR04. Mouser Electronics, 2019, www.mouser.com/datasheet/2/813/HCSR04-1022824.pdf.
+
 ElectronicsTutorial. “Introduction to Capacitors, Capacitance and Charge.” Basic Electronics Tutorials, 15 Sept. 2018, www.electronics-tutorials.ws/capacitor/cap_1.html.
+
 EO Edmund Optics. “Optical Filters: Edmund Optics.” Edmund Optics Worldwide, www.edmundoptics.com/resources/application-notes/optics/optical-filters/.
+
 Ibrahim, Syed. “Static and Dynamic Forces.” Research Gate, Research Gate, Aug. 2014, www.researchgate.net/publication/311807851_Static_and_dynamic_forces.
+
 Interlink Electronics. “Force Sensitive Resistor Integration Guide and Evaluation Parts Catalog.” 400 Series Evaluation Parts , cdn-learn.adafruit.com/assets/assets/000/010/126/original/fsrguide.pdf.
+
 Konica Minolta. “Luminance vs. Illuminance.” Konica Minolta Sensing Americas, 2019, sensing.konicaminolta.us/blog/luminance-vs-illuminance/.
+
 Last Minute Engineers. “How HC-SR501 PIR Sensor Works & How To Interface It With Arduino.” Last Minute Engineers, Last Minute Engineers, 7 Dec. 2018, lastminuteengineers.com/pir-sensor-arduino-tutorial/.
+
 LEC Expert. “Units of Light.” LEC, Nov. 2015, www.lec-expert.com/topics/units-of-light.
+
 Lee Shuk-Ming, Olivia. “Radiation Emitted by Human Body - Thermal Radiation.” Radiation, Sept. 2010, www.hko.gov.hk/education/edu02rga/radiation/radiation_02-e.htm.
+
 Libretexts. “Electromagnetic Radiation.” Chemistry LibreTexts, Libretexts, 5 June 2019, chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Fundamentals_of_Spectroscopy/Electromagnetic_Radiation.
+
 Luna Optoelectronics. “CDS Photoconductive Photocells.” Lunainc.com, 2016, media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P9003.pdf.
+
 Navarro-Cia, Miguel. “Pyroelectric-Sensor-a-Sketch-of-the-Pyroelectric-Sensor-with-an-Integrated-Resonant.” Research Gate, Feb. 2016, www.researchgate.net/figure/Pyroelectric-sensor-a-Sketch-of-the-pyroelectric-sensor-with-an-integrated-resonant_fig3_294873294.
+
 Orzel, Chad. “Football Physics: Putting G-Forces In Perspective.” Forbes, Forbes Magazine, 9 Nov. 2015, www.forbes.com/sites/chadorzel/2015/11/08/football-physics-putting-g-forces-in-perspective/#40fc0a41766e.
+
 Pan, A., and X. Zhu. “Photoconductivity.” Photoconductivity - an Overview | ScienceDirect Topics, 2015, www.sciencedirect.com/topics/chemistry/photoconductivity.
+
 Pederson, Tracy. “What Is Infrared?” LiveScience, Purch, 2019, www.livescience.com/50260-infrared-radiation.html.
+
 The Physics Classroom. “The Meaning of Force.” The Physics Classroom, 2019, www.physicsclassroom.com/class/newtlaws/Lesson-2/The-Meaning-of-Force.
+
 Pujol, Rémy. “Journey into the World of Hearing - Specialists.” Cochlea- Hearing Ranges, 6 June 2018, www.cochlea.org/en/hear/human-auditory-range.
+
 “Pyroelectricity.” ScienceDaily, ScienceDaily, www.sciencedaily.com/terms/pyroelectricity.htm.
+
 Radford, Max, and Francis Riemensperger. “The Electromagnetic Spectrum.” Mini Physics, 22 May 2016, www.miniphysics.com/electromagnetic-spectrum_25.html.
+
 Smith, Daniel. “Calculating the Emission Spectra from Common Light Sources.” COMSOL Multiphysics, Jan. 2016, www.comsol.com/blogs/calculating-the-emission-spectra-from-common-light-sources/.
 
