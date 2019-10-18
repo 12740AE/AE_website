@@ -73,7 +73,7 @@ Visible light is also part of the electromagnetic spectrum, at higher frequencie
 Light has natural and artificial sources, including the Sun, fluorescent lamps, incandescent bulbs, LEDs and so on. Most light sources use the at least some part of the full spectrum of visible light but may be skewed towards particular wavelengths of light (Figure 2). Natural light does contain the full spectrum.
 
 <p align="center">
-  <img src="./image/new2.png" width="350">
+  <img src="./image/new2.png" width="500">
 </p>
 
 <p align="center">
