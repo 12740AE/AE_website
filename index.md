@@ -60,7 +60,25 @@ IR radiation is a fairly dynamic phenomena. IR as heat and less obvious forms of
 
 Visible light is also part of the electromagnetic spectrum, at higher frequencies that IR radiation discussed previously. As shown in Figure 1, the wavelengths for visible light range between 400 -700 nm, and the most common measurement for visible light is its wavelength, in nanometers. All waves in the electromagnetic spectrum travel as the speed of light, commonly known as coefficient c.  
 
+<p align="center">
+  <img src="./image/new1.png" width="350">
+</p>
 
+<p align="center">
+ Figure 1: Diagram showing the entire electromagnetic spectrum[6]
+</p>
+
+*Signal Characteristics and Static/Dynamic Behaviors*
+
+Light has natural and artificial sources, including the Sun, fluorescent lamps, incandescent bulbs, LEDs and so on. Most light sources use the at least some part of the full spectrum of visible light but may be skewed towards particular wavelengths of light (Figure 2). Natural light does contain the full spectrum.
+
+<p align="center">
+  <img src="./image/new2.png" width="350">
+</p>
+
+<p align="center">
+Figure 2 : Emission spectrum analysis showing intensity of each wavelength in visible light spectrum for natural light (left), and incandescent light (right)[7]
+</p>
 
 
 
