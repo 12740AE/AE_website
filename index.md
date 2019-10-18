@@ -309,52 +309,52 @@ As shown in Figure 11, there is a short range between log 10 to log 100 g of for
 
 [3]Pederson, Tracy. “What Is Infrared?” LiveScience, Purch, 2019, [www.livescience.com/50260-infrared-radiation.html](http://www.livescience.com/50260-infrared-radiation.html).
 
-[4] Libretexts. “Electromagnetic Radiation.” Chemistry LibreTexts, Libretexts, 5 June 2019, [chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Fundamentals_of_Spectroscopy/Electromagnetic_Radiation](chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Fundamentals_of_Spectroscopy/Electromagnetic_Radiation).
+[4] Libretexts. “Electromagnetic Radiation.” Chemistry LibreTexts, Libretexts, 5 June 2019, [chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Fundamentals_of_Spectroscopy/Electromagnetic_Radiation](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Fundamentals_of_Spectroscopy/Electromagnetic_Radiation).
 
-[5] Lee Shuk-Ming, Olivia. “Radiation Emitted by Human Body - Thermal Radiation.” Radiation, Sept. 2010, [www.hko.gov.hk/education/edu02rga/radiation/radiation_02-e.htm](www.hko.gov.hk/education/edu02rga/radiation/radiation_02-e.htm).
+[5] Lee Shuk-Ming, Olivia. “Radiation Emitted by Human Body - Thermal Radiation.” Radiation, Sept. 2010, [www.hko.gov.hk/education/edu02rga/radiation/radiation_02-e.htm](http://www.hko.gov.hk/education/edu02rga/radiation/radiation_02-e.htm).
 
-[6]  Radford, Max, and Francis Riemensperger. “The Electromagnetic Spectrum.” Mini Physics, 22 May 2016, [www.miniphysics.com/electromagnetic-spectrum_25.html](www.miniphysics.com/electromagnetic-spectrum_25.html).
+[6]  Radford, Max, and Francis Riemensperger. “The Electromagnetic Spectrum.” Mini Physics, 22 May 2016, [https://www.miniphysics.com/electromagnetic-spectrum_25.html).
 
-[7] Smith, Daniel. “Calculating the Emission Spectra from Common Light Sources.” COMSOL Multiphysics, Jan. 2016, [www.comsol.com/blogs/calculating-the-emission-spectra-from-common-light-sources/](www.comsol.com/blogs/calculating-the-emission-spectra-from-common-light-sources/).
+[7] Smith, Daniel. “Calculating the Emission Spectra from Common Light Sources.” COMSOL Multiphysics, Jan. 2016, [www.comsol.com/blogs/calculating-the-emission-spectra-from-common-light-sources/](https://www.comsol.com/blogs/calculating-the-emission-spectra-from-common-light-sources/).
 
-[8] LEC Expert. “Units of Light.” LEC, Nov. 2015, [www.lec-expert.com/topics/units-of-light](www.lec-expert.com/topics/units-of-light)
+[8] LEC Expert. “Units of Light.” LEC, Nov. 2015, [www.lec-expert.com/topics/units-of-light](https://www.lec-expert.com/topics/units-of-light)
 
-[9] Konica Minolta. “Luminance vs. Illuminance.” Konica Minolta Sensing Americas, 2019, [sensing.konicaminolta.us/blog/luminance-vs-illuminance/](sensing.konicaminolta.us/blog/luminance-vs-illuminance/).
+[9] Konica Minolta. “Luminance vs. Illuminance.” Konica Minolta Sensing Americas, 2019, [sensing.konicaminolta.us/blog/luminance-vs-illuminance/](https://sensing.konicaminolta.us/blog/luminance-vs-illuminance/).
 
-[10] The Physics Classroom. “The Meaning of Force.” The Physics Classroom, 2019, [www.physicsclassroom.com/class/newtlaws/Lesson-2/The-Meaning-of-Force](www.physicsclassroom.com/class/newtlaws/Lesson-2/The-Meaning-of-Force).
+[10] The Physics Classroom. “The Meaning of Force.” The Physics Classroom, 2019, [www.physicsclassroom.com/class/newtlaws/Lesson-2/The-Meaning-of-Force](https://www.physicsclassroom.com/class/newtlaws/Lesson-2/The-Meaning-of-Force).
 
-[11] Ibrahim, Syed. “Static and Dynamic Forces.” Research Gate, Research Gate, Aug. 2014, [www.researchgate.net/publication/311807851_Static_and_dynamic_forces](www.researchgate.net/publication/311807851_Static_and_dynamic_forces).
+[11] Ibrahim, Syed. “Static and Dynamic Forces.” Research Gate, Research Gate, Aug. 2014, [www.researchgate.net/publication/311807851_Static_and_dynamic_forces](https://www.researchgate.net/publication/311807851_Static_and_dynamic_forces).
 
-[12] Analog Devices. “Small, Low Power, 3-Axis ±3 g Accelerometer Datasheet.” ADXL 335, 2010, [www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf](www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf).
+[12] Analog Devices. “Small, Low Power, 3-Axis ±3 g Accelerometer Datasheet.” ADXL 335, 2010, [www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf](https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf).
 
-[13] ElectronicsTutorial. “Introduction to Capacitors, Capacitance and Charge.” Basic Electronics Tutorials, 15 Sept. 2018, [www.electronics-tutorials.ws/capacitor/cap_1.html](www.electronics-tutorials.ws/capacitor/cap_1.html).
+[13] ElectronicsTutorial. “Introduction to Capacitors, Capacitance and Charge.” Basic Electronics Tutorials, 15 Sept. 2018, [www.electronics-tutorials.ws/capacitor/cap_1.html](https://www.electronics-tutorials.ws/capacitor/cap_1.html).
 
-[14]Analog Devices. Small, Low Power, 3-Axis ±3 g Accelerometer. 2010, [www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf](www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf).
+[14]Analog Devices. Small, Low Power, 3-Axis ±3 g Accelerometer. 2010, [www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf](https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf).
 
-[15] Analog Devices. Accelerometer Specifications - Quick Definitions. [www.analog.com/en/products/landing-pages/001/accelerometer-specifications-definitions.html](www.analog.com/en/products/landing-pages/001/accelerometer-specifications-definitions.html).
+[15] Analog Devices. Accelerometer Specifications - Quick Definitions. [www.analog.com/en/products/landing-pages/001/accelerometer-specifications-definitions.html](https://www.analog.com/en/products/landing-pages/001/accelerometer-specifications-definitions.html).
 
-[16]Ada, Lady. “PIR Motion Sensor.” Adafruit Learning System, [learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work](learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work).
+[16]Ada, Lady. “PIR Motion Sensor.” Adafruit Learning System, [learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work](https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work).
 
-[17]Last Minute Engineers. “How HC-SR501 PIR Sensor Works & How To Interface It With Arduino.” Last Minute Engineers, Last Minute Engineers, 7 Dec. 2018, [lastminuteengineers.com/pir-sensor-arduino-tutorial/](lastminuteengineers.com/pir-sensor-arduino-tutorial/).
+[17]Last Minute Engineers. “How HC-SR501 PIR Sensor Works & How To Interface It With Arduino.” Last Minute Engineers, Last Minute Engineers, 7 Dec. 2018, [lastminuteengineers.com/pir-sensor-arduino-tutorial/](https://lastminuteengineers.com/pir-sensor-arduino-tutorial/).
 
-[18] “Pyroelectricity.” ScienceDaily, ScienceDaily, [www.sciencedaily.com/terms/pyroelectricity.htm](www.sciencedaily.com/terms/pyroelectricity.htm).
+[18] “Pyroelectricity.” ScienceDaily, ScienceDaily, [www.sciencedaily.com/terms/pyroelectricity.htm](https://www.sciencedaily.com/terms/pyroelectricity.htm).
 
-[19]Navarro-Cia, Miguel. “Pyroelectric-Sensor-a-Sketch-of-the-Pyroelectric-Sensor-with-an-Integrated-Resonant.” Research Gate, Feb. 2016, [www.researchgate.net/figure/Pyroelectric-sensor-a-Sketch-of-the-pyroelectric-sensor-with-an-integrated-resonant_fig3_294873294](www.researchgate.net/figure/Pyroelectric-sensor-a-Sketch-of-the-pyroelectric-sensor-with-an-integrated-resonant_fig3_294873294).
+[19]Navarro-Cia, Miguel. “Pyroelectric-Sensor-a-Sketch-of-the-Pyroelectric-Sensor-with-an-Integrated-Resonant.” Research Gate, Feb. 2016, [www.researchgate.net/figure/Pyroelectric-sensor-a-Sketch-of-the-pyroelectric-sensor-with-an-integrated-resonant_fig3_294873294](https://www.researchgate.net/figure/Pyroelectric-sensor-a-Sketch-of-the-pyroelectric-sensor-with-an-integrated-resonant_fig3_294873294).
 
-[20]“Arduino HC-SR501 Motion Sensor Tutorial.” Henry's Bench, 10 Feb. 2018, [henrysbench.capnfatz.com/henrys-bench/arduino-sensors-and-input/arduino-hc-sr501-motion-sensor-tutorial/](henrysbench.capnfatz.com/henrys-bench/arduino-sensors-and-input/arduino-hc-sr501-motion-sensor-tutorial/).
+[20]“Arduino HC-SR501 Motion Sensor Tutorial.” Henry's Bench, 10 Feb. 2018, [henrysbench.capnfatz.com/henrys-bench/arduino-sensors-and-input/arduino-hc-sr501-motion-sensor-tutorial/](http://henrysbench.capnfatz.com/henrys-bench/arduino-sensors-and-input/arduino-hc-sr501-motion-sensor-tutorial/).
 
-[21] EO Edmund Optics. “Optical Filters: Edmund Optics.” Edmund Optics Worldwide, [www.edmundoptics.com/resources/application-notes/optics/optical-filters/](www.edmundoptics.com/resources/application-notes/optics/optical-filters/).
+[21] EO Edmund Optics. “Optical Filters: Edmund Optics.” Edmund Optics Worldwide, [www.edmundoptics.com/resources/application-notes/optics/optical-filters/](https://www.edmundoptics.com/resources/application-notes/optics/optical-filters/).
 
-[22] Adafruit. “BISS0001 Micro Power PIR Motion Detector IC.” Adafruit Learn, [cdn-learn.adafruit.com/assets/assets/000/010/133/original/BISS0001.pdf](cdn-learn.adafruit.com/assets/assets/000/010/133/original/BISS0001.pdf).
+[22] Adafruit. “BISS0001 Micro Power PIR Motion Detector IC.” Adafruit Learn, [cdn-learn.adafruit.com/assets/assets/000/010/133/original/BISS0001.pdf](cdn-https://cdn-learn.adafruit.com/assets/assets/000/010/133/original/BISS0001.pdf).
 
-[23]Luna Optoelectronics. “CDS Photoconductive Photocells.” Lunainc.com, 2016, [media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P9003.pdf](media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P9003.pdf).
+[23]Luna Optoelectronics. “CDS Photoconductive Photocells.” Lunainc.com, 2016, [media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P9003.pdf](https://media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P9003.pdf).
 
-[24]Pan, A., and X. Zhu. “Photoconductivity.” Photoconductivity - an Overview | ScienceDirect Topics, 2015, [www.sciencedirect.com/topics/chemistry/photoconductivity](www.sciencedirect.com/topics/chemistry/photoconductivity).
+[24]Pan, A., and X. Zhu. “Photoconductivity.” Photoconductivity - an Overview | ScienceDirect Topics, 2015, [www.sciencedirect.com/topics/chemistry/photoconductivity](https://www.sciencedirect.com/topics/chemistry/photoconductivity).
 
-[25] Pujol, Rémy. “Journey into the World of Hearing - Specialists.” Cochlea- Hearing Ranges, 6 June 2018, [www.cochlea.org/en/hear/human-auditory-range](www.cochlea.org/en/hear/human-auditory-range).
+[25] Pujol, Rémy. “Journey into the World of Hearing - Specialists.” Cochlea- Hearing Ranges, 6 June 2018, [www.cochlea.org/en/hear/human-auditory-range](http://www.cochlea.org/en/hear/human-auditory-range).
 
-[26] Burnett, Roderick. “Understanding How Ultrasonic Sensors Work.” MaxBotix Inc., Publisher Name MaxBotix Inc.Publisher Logo, 16 Sept. 2019, [www.maxbotix.com/articles/how-ultrasonic-sensors-work.htm](www.maxbotix.com/articles/how-ultrasonic-sensors-work.htm).
+[26] Burnett, Roderick. “Understanding How Ultrasonic Sensors Work.” MaxBotix Inc., Publisher Name MaxBotix Inc.Publisher Logo, 16 Sept. 2019, [www.maxbotix.com/articles/how-ultrasonic-sensors-work.htm](https://www.maxbotix.com/articles/how-ultrasonic-sensors-work.htm).
 
-[27] LEC Freaks. Ultrasonic Ranging Module HC - SR04. Mouser Electronics, 2019, [www.mouser.com/datasheet/2/813/HCSR04-1022824.pdf](www.mouser.com/datasheet/2/813/HCSR04-1022824.pdf).
+[27] LEC Freaks. Ultrasonic Ranging Module HC - SR04. Mouser Electronics, 2019, [www.mouser.com/datasheet/2/813/HCSR04-1022824.pdf](http://www.mouser.com/datasheet/2/813/HCSR04-1022824.pdf).
 
-[28] Interlink Electronics. “Force Sensitive Resistor Integration Guide and Evaluation Parts Catalog.” 400 Series Evaluation Parts , [cdn-learn.adafruit.com/assets/assets/000/010/126/original/fsrguide.pdf](cdn-learn.adafruit.com/assets/assets/000/010/126/original/fsrguide.pdf).
+[28] Interlink Electronics. “Force Sensitive Resistor Integration Guide and Evaluation Parts Catalog.” 400 Series Evaluation Parts , [cdn-learn.adafruit.com/assets/assets/000/010/126/original/fsrguide.pdf](https://cdn-learn.adafruit.com/assets/assets/000/010/126/original/fsrguide.pdf).
